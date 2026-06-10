@@ -22,14 +22,14 @@ body {
 .contenedor-principal {
     background-color: #d3d3d3; 
     width: 400px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Las dos cajitas blancas */
 .caja-titulo, .caja-formulario {
     background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 /* Línea azul al título */
@@ -44,7 +44,7 @@ body {
 .caja-formulario label, .caja-formulario input {
     display: block;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     box-sizing: border-box;
 }
 
