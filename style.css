@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    margin: 10px;
+}
+
+/* Menú simple con borde */
+.navbar {
+    display: inline-block;
+    background-color: #e0a96d; 
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.navbar a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* El bloque gris */
+.contenedor-principal {
+    background-color: #d3d3d3; 
+    width: 400px;
+    padding: 20px;
+}
+
+/* Las dos cajitas blancas */
+.caja-titulo, .caja-formulario {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Línea azul al título */
+.caja-titulo {
+    border-left: 5px solid #3498db; 
+}
+.caja-titulo h2 {
+    margin: 0;
+}
+
+/* Inputs uno abajo del otro */
+.caja-formulario label, .caja-formulario input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* Botón azul a la derecha */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
